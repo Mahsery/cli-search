@@ -1,0 +1,10 @@
+[package]
+name = "search-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+google_search_rs = "*"
+serde_json = "*"
+clap = "*"
+tokio = "*"
